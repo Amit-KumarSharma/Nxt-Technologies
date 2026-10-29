@@ -5,7 +5,7 @@ export const CookiePolicyPage: React.FC = () => {
   return (
     <PolicyLayout
       title="Cookie Policy"
-      subtitle="Clear information on cookies and local storage technologies used on the Kairo Technologies website."
+      subtitle="Clear information on cookies and local storage technologies used on the Nxt Technologies website."
       lastUpdated="October 2026"
     >
       <section className="space-y-4">
@@ -19,7 +19,7 @@ export const CookiePolicyPage: React.FC = () => {
 
       <section className="space-y-4">
         <h2 className="text-xl font-display font-bold text-white border-b border-white/10 pb-2">
-          2. How Kairo Technologies Uses Cookies
+          2. How Nxt Technologies Uses Cookies
         </h2>
         <p>
           We take a privacy-conscious, minimal approach to cookies:

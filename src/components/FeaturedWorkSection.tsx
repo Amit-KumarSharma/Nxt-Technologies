@@ -52,7 +52,7 @@ export const FeaturedWorkSection: React.FC<FeaturedWorkSectionProps> = ({ onOpen
               <span className="w-2.5 h-2.5 rounded-full bg-amber-500/70" />
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-500/70" />
             </div>
-            <span className="truncate max-w-[180px]">{project.title.toLowerCase().replace(/\s+/g, '')}.kairo.dev</span>
+            <span className="truncate max-w-[180px]">{project.title.toLowerCase().replace(/\s+/g, '')}.nxt.dev</span>
             <span className="text-[10px] text-zinc-600 hidden sm:inline">HTTPS</span>
           </div>
 

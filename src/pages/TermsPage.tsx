@@ -6,7 +6,7 @@ export const TermsPage: React.FC = () => {
   return (
     <PolicyLayout
       title="Terms and Conditions"
-      subtitle="The terms, rights, and operational agreements governing your use of Kairo Technologies' services and website."
+      subtitle="The terms, rights, and operational agreements governing your use of Nxt Technologies' services and website."
       lastUpdated="October 2026"
     >
       <section className="space-y-4">
@@ -14,7 +14,7 @@ export const TermsPage: React.FC = () => {
           1. Acceptance of Terms
         </h2>
         <p>
-          By accessing the website of <strong>Kairo Technologies</strong> or engaging our web development services, you agree to be bound by these Terms and Conditions and all applicable laws and regulations in India. If you do not agree with any of these terms, you are prohibited from using or accessing this site or commissioning custom work.
+          By accessing the website of <strong>Nxt Technologies</strong> or engaging our web development services, you agree to be bound by these Terms and Conditions and all applicable laws and regulations in India. If you do not agree with any of these terms, you are prohibited from using or accessing this site or commissioning custom work.
         </p>
       </section>
 
@@ -23,7 +23,7 @@ export const TermsPage: React.FC = () => {
           2. Description of Services
         </h2>
         <p>
-          Kairo Technologies operates as an independent web development agency providing digital design, custom front-end engineering, web application development, landing page creation, e-commerce integration, and website maintenance. Our services are digital in nature and provided according to the specific scope agreed upon in your quotation or project brief.
+          Nxt Technologies operates as an independent web development agency providing digital design, custom front-end engineering, web application development, landing page creation, e-commerce integration, and website maintenance. Our services are digital in nature and provided according to the specific scope agreed upon in your quotation or project brief.
         </p>
       </section>
 
@@ -47,7 +47,7 @@ export const TermsPage: React.FC = () => {
           4. Client Responsibilities & Content Ownership
         </h2>
         <p>
-          Clients are responsible for providing all necessary text copy, brand assets, logos, and high-resolution media required for the website. The client represents that they own or hold lawful license to all content provided. Kairo Technologies bears no legal liability for copyright or trademark infringements arising from client-provided materials.
+          Clients are responsible for providing all necessary text copy, brand assets, logos, and high-resolution media required for the website. The client represents that they own or hold lawful license to all content provided. Nxt Technologies bears no legal liability for copyright or trademark infringements arising from client-provided materials.
         </p>
       </section>
 
@@ -56,7 +56,7 @@ export const TermsPage: React.FC = () => {
           5. Quotation Validity & Approval Delays
         </h2>
         <p>
-          Written quotations issued by Kairo Technologies are valid for thirty (30) calendar days from the date of issue. Project schedules depend upon timely client feedback and milestone sign-offs. Delays of more than fifteen (15) business days in client feedback or provision of assets may result in schedule adjustments.
+          Written quotations issued by Nxt Technologies are valid for thirty (30) calendar days from the date of issue. Project schedules depend upon timely client feedback and milestone sign-offs. Delays of more than fifteen (15) business days in client feedback or provision of assets may result in schedule adjustments.
         </p>
       </section>
 
@@ -79,7 +79,7 @@ export const TermsPage: React.FC = () => {
           7. Intellectual Property & Source Code Handover
         </h2>
         <p>
-          Upon receipt of full and final payment, ownership of the bespoke front-end code, website structure, and customized graphic layouts transfers to the client. Kairo Technologies retains the moral right to display non-confidential project visuals and concept snapshots in its agency portfolio.
+          Upon receipt of full and final payment, ownership of the bespoke front-end code, website structure, and customized graphic layouts transfers to the client. Nxt Technologies retains the moral right to display non-confidential project visuals and concept snapshots in its agency portfolio.
         </p>
       </section>
 
@@ -88,7 +88,7 @@ export const TermsPage: React.FC = () => {
           8. Third-Party Services, Hosting & Domain Ownership
         </h2>
         <p>
-          Domains and cloud hosting accounts must be registered directly in the client's name or transferred upon launch. Kairo Technologies is not an internet service provider or domain registrar and is not liable for third-party hosting downtimes, DNS outages, or third-party API disruptions.
+          Domains and cloud hosting accounts must be registered directly in the client's name or transferred upon launch. Nxt Technologies is not an internet service provider or domain registrar and is not liable for third-party hosting downtimes, DNS outages, or third-party API disruptions.
         </p>
       </section>
 
@@ -97,7 +97,7 @@ export const TermsPage: React.FC = () => {
           9. Limitation of Liability
         </h2>
         <p>
-          In no event shall Kairo Technologies or its team be liable for indirect, incidental, or consequential damages (including loss of profits, business interruptions, or data loss) arising from the use or inability to use the developed website. Our aggregate liability is strictly limited to the amount paid for the specific service under dispute.
+          In no event shall Nxt Technologies or its team be liable for indirect, incidental, or consequential damages (including loss of profits, business interruptions, or data loss) arising from the use or inability to use the developed website. Our aggregate liability is strictly limited to the amount paid for the specific service under dispute.
         </p>
       </section>
 

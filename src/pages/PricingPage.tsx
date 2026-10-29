@@ -146,7 +146,7 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onOpenProjectModal }) 
 
   const handleWhatsAppDirectPay = () => {
     if (!pendingPayment) return;
-    const text = `Hello Kairo Technologies!%0A%0AI would like to make a verified payment of *₹${pendingPayment.amount.toLocaleString('en-IN')}* for: ${encodeURIComponent(pendingPayment.description)}.%0A%0APlease share your direct UPI / QR code payment instructions.`;
+    const text = `Hello Nxt Technologies!%0A%0AI would like to make a verified payment of *₹${pendingPayment.amount.toLocaleString('en-IN')}* for: ${encodeURIComponent(pendingPayment.description)}.%0A%0APlease share your direct UPI / QR code payment instructions.`;
     window.open(`https://wa.me/${AGENCY_CONFIG.whatsappNumber}?text=${text}`, '_blank', 'noopener,noreferrer');
     setIsKeyModalOpen(false);
     setPendingPayment(null);
@@ -487,7 +487,7 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onOpenProjectModal }) 
               {/* Actions */}
               <div className="mt-6 flex flex-col gap-2.5">
                 <a
-                  href={`https://wa.me/${AGENCY_CONFIG.whatsappNumber}?text=${encodeURIComponent(`Hello Kairo Technologies! I have completed payment of ₹${paymentSuccess.amount.toLocaleString('en-IN')} via Razorpay. Reference ID: ${paymentSuccess.paymentId}. Please find my confirmation.`)}`}
+                  href={`https://wa.me/${AGENCY_CONFIG.whatsappNumber}?text=${encodeURIComponent(`Hello Nxt Technologies! I have completed payment of ₹${paymentSuccess.amount.toLocaleString('en-IN')} via Razorpay. Reference ID: ${paymentSuccess.paymentId}. Please find my confirmation.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-white font-semibold text-xs flex items-center justify-center gap-2 transition-colors"

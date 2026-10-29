@@ -65,7 +65,7 @@ export const FinalCTASection: React.FC<FinalCTASectionProps> = ({ prefilledBusin
       }
 
       if (formData.sendToWhatsapp) {
-        const msg = `Hello Kairo Technologies!%0A%0A*New Project Inquiry:*%0A- *Name:* ${encodeURIComponent(formData.name)}%0A- *Email:* ${encodeURIComponent(formData.email)}%0A- *Phone:* ${encodeURIComponent(formData.phone || 'Not provided')}%0A- *Business / Package:* ${encodeURIComponent(formData.businessType)}%0A- *Project Message:* ${encodeURIComponent(formData.message)}`;
+        const msg = `Hello Nxt Technologies!%0A%0A*New Project Inquiry:*%0A- *Name:* ${encodeURIComponent(formData.name)}%0A- *Email:* ${encodeURIComponent(formData.email)}%0A- *Phone:* ${encodeURIComponent(formData.phone || 'Not provided')}%0A- *Business / Package:* ${encodeURIComponent(formData.businessType)}%0A- *Project Message:* ${encodeURIComponent(formData.message)}`;
         const waUrl = `https://wa.me/${AGENCY_CONFIG.whatsappNumber}?text=${msg}`;
         window.open(waUrl, '_blank', 'noopener,noreferrer');
       }

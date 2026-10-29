@@ -14,7 +14,7 @@ export const PaymentPolicyPage: React.FC = () => {
           1. Governing Agreement
         </h2>
         <p>
-          At <strong>Kairo Technologies</strong>, the official quotation or project contract agreed upon between the client and our agency governs the actual project amount, milestone breakdowns, and payment schedule. Package prices shown on our website represent indicative starting figures for standard scopes.
+          At <strong>Nxt Technologies</strong>, the official quotation or project contract agreed upon between the client and our agency governs the actual project amount, milestone breakdowns, and payment schedule. Package prices shown on our website represent indicative starting figures for standard scopes.
         </p>
       </section>
 
@@ -54,7 +54,7 @@ export const PaymentPolicyPage: React.FC = () => {
           To maintain accounting integrity and transparent project tracking:
         </p>
         <ul className="list-disc pl-5 space-y-2 text-zinc-300">
-          <li>All custom project payments must correspond to an official written Quotation or Invoice reference issued by Kairo Technologies (e.g., <code>KT-2026-XX</code>).</li>
+          <li>All custom project payments must correspond to an official written Quotation or Invoice reference issued by Nxt Technologies (e.g., <code>NT-2026-XX</code>).</li>
           <li>Payments are settled against approved milestone deliverables via direct bank transfer, UPI, or verified payment instructions provided by our team.</li>
         </ul>
       </section>
@@ -64,7 +64,7 @@ export const PaymentPolicyPage: React.FC = () => {
           5. Scope Changes & Price Adjustments
         </h2>
         <p>
-          If during the project the client requests features, pages, or integrations outside the original scope, Kairo Technologies will provide a Change Request quotation. Work on new additions will proceed once the adjusted scope and associated cost are approved.
+          If during the project the client requests features, pages, or integrations outside the original scope, Nxt Technologies will provide a Change Request quotation. Work on new additions will proceed once the adjusted scope and associated cost are approved.
         </p>
       </section>
 

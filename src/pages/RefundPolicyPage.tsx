@@ -14,7 +14,7 @@ export const RefundPolicyPage: React.FC = () => {
           1. Overview
         </h2>
         <p>
-          At <strong>Kairo Technologies</strong>, we strive to build collaborative relationships with our clients based on transparency and clear milestones. Because our web development services involve bespoke design, architecture, and coding tailored exclusively for each client, this Refund and Cancellation Policy governs how cancellation requests and refunds are processed.
+          At <strong>Nxt Technologies</strong>, we strive to build collaborative relationships with our clients based on transparency and clear milestones. Because our web development services involve bespoke design, architecture, and coding tailored exclusively for each client, this Refund and Cancellation Policy governs how cancellation requests and refunds are processed.
         </p>
       </section>
 

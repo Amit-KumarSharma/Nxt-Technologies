@@ -59,7 +59,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectModal }) => {
             <span className="text-zinc-200">Accepting Select Projects for 2026</span>
             <span className="text-zinc-500">•</span>
             <span className="bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent font-semibold">
-              Kairo Technologies
+              Nxt Technologies
             </span>
           </motion.div>
         </div>
@@ -134,7 +134,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectModal }) => {
                   <div className="w-3 h-3 rounded-full bg-amber-500/80" />
                   <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
                   <span className="ml-3 text-xs text-zinc-500 font-mono hidden sm:inline">
-                    https://kairotechnologies.com/preview
+                    https://nxttechnologies.com/preview
                   </span>
                 </div>
 
@@ -242,10 +242,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectModal }) => {
 
                 {activeTab === 'code' && (
                   <div className="font-mono text-xs text-zinc-300 space-y-2 bg-black/50 p-5 rounded-xl border border-white/5">
-                    <p className="text-zinc-500">// Kairo Technologies - High-Performance Web Architecture</p>
+                    <p className="text-zinc-500">// Nxt Technologies - High-Performance Web Architecture</p>
                     <p>
                       <span className="text-indigo-400">export const</span>{' '}
-                      <span className="text-sky-300">kairoWebsite</span> = {'{'}
+                      <span className="text-sky-300">nxtWebsite</span> = {'{'}
                     </p>
                     <p className="pl-4">
                       <span className="text-zinc-400">framework:</span> <span className="text-emerald-400">"React 19 / TypeScript"</span>,

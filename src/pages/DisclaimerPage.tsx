@@ -14,7 +14,7 @@ export const DisclaimerPage: React.FC = () => {
           1. General Information Only
         </h2>
         <p>
-          The materials and information contained on the website of <strong>Kairo Technologies</strong> are provided for general illustrative and informational purposes only. Nothing on this website constitutes legal, financial, or formal contractual advice. A formal, legally binding client relationship is formed only upon the mutual execution of an official project quotation, contract, or invoice.
+          The materials and information contained on the website of <strong>Nxt Technologies</strong> are provided for general illustrative and informational purposes only. Nothing on this website constitutes legal, financial, or formal contractual advice. A formal, legally binding client relationship is formed only upon the mutual execution of an official project quotation, contract, or invoice.
         </p>
       </section>
 
@@ -23,7 +23,7 @@ export const DisclaimerPage: React.FC = () => {
           2. Business Results & Search Rankings Not Guaranteed
         </h2>
         <p>
-          While Kairo Technologies engineers websites using modern SEO best practices, semantic markup, and performance optimization, actual business outcomes, customer acquisition volumes, Google search rankings, and sales figures depend upon numerous external variables outside our control (including client marketing budgets, brand reputation, market demand, competition, and search engine algorithm updates). Consequently, Kairo Technologies makes no representations, warranties, or guarantees regarding specific revenue figures or search engine ranking positions.
+          While Nxt Technologies engineers websites using modern SEO best practices, semantic markup, and performance optimization, actual business outcomes, customer acquisition volumes, Google search rankings, and sales figures depend upon numerous external variables outside our control (including client marketing budgets, brand reputation, market demand, competition, and search engine algorithm updates). Consequently, Nxt Technologies makes no representations, warranties, or guarantees regarding specific revenue figures or search engine ranking positions.
         </p>
       </section>
 
@@ -32,7 +32,7 @@ export const DisclaimerPage: React.FC = () => {
           3. Third-Party Integrations & Services
         </h2>
         <p>
-          Our websites may integrate third-party APIs, payment gateways (such as Razorpay, Stripe, or PayPal), analytics tools, cloud hosting networks (such as Vercel or AWS), or external databases. The ongoing availability, uptime, policy compliance, and performance of these third-party services are the sole responsibility of their respective providers. Kairo Technologies is not liable for disruptions, policy changes, or service terminations enacted by third-party platforms.
+          Our websites may integrate third-party APIs, payment gateways (such as Razorpay, Stripe, or PayPal), analytics tools, cloud hosting networks (such as Vercel or AWS), or external databases. The ongoing availability, uptime, policy compliance, and performance of these third-party services are the sole responsibility of their respective providers. Nxt Technologies is not liable for disruptions, policy changes, or service terminations enacted by third-party platforms.
         </p>
       </section>
 

@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 via-indigo-600 to-violet-600 p-[1.5px]">
                 <div className="w-full h-full bg-[#07070b] rounded-[10px] flex items-center justify-center">
                   <span className="font-display font-extrabold text-xl tracking-tighter bg-gradient-to-br from-sky-400 to-indigo-400 bg-clip-text text-transparent">
-                    K
+                    N
                   </span>
                 </div>
               </div>

@@ -14,7 +14,7 @@ export const ServicePolicyPage: React.FC = () => {
           1. Digital Service Nature
         </h2>
         <p>
-          <strong>Kairo Technologies</strong> provides professional digital services, software engineering, and bespoke website creation. Because our deliverables consist of digital code, design systems, and online platforms rather than physical goods, no physical shipping or courier delivery is involved.
+          <strong>Nxt Technologies</strong> provides professional digital services, software engineering, and bespoke website creation. Because our deliverables consist of digital code, design systems, and online platforms rather than physical goods, no physical shipping or courier delivery is involved.
         </p>
       </section>
 

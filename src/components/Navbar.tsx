@@ -67,13 +67,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectModal }) => {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 via-indigo-600 to-violet-600 p-[1.5px] transition-transform duration-300 group-hover:scale-105">
                 <div className="w-full h-full bg-[#07070b] rounded-[10px] flex items-center justify-center">
                   <span className="font-display font-extrabold text-xl tracking-tighter bg-gradient-to-br from-sky-400 to-indigo-400 bg-clip-text text-transparent">
-                    K
+                    N
                   </span>
                 </div>
               </div>
               <div className="flex flex-col">
                 <span className="font-display font-bold text-lg tracking-tight text-white flex items-center gap-1.5">
-                  Kairo
+                  Nxt
                   <span className="text-xs px-1.5 py-0.5 rounded bg-indigo-500/10 text-indigo-400 font-normal border border-indigo-500/20">
                     Tech
                   </span>
@@ -150,7 +150,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectModal }) => {
               {/* Phone quick call */}
               <a
                 href={`tel:${AGENCY_CONFIG.phoneTel}`}
-                aria-label="Call Kairo Technologies"
+                aria-label="Call Nxt Technologies"
                 className="hidden xl:flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-mono font-medium text-zinc-300 hover:text-white bg-white/[0.03] hover:bg-white/[0.08] border border-white/10 transition-colors"
                 title={`Call: ${AGENCY_CONFIG.phoneDisplay}`}
               >

@@ -12,7 +12,7 @@ import {
 import { WHY_CHOOSE_US_DATA } from '../data/agencyData';
 
 export const WhyChooseUsSection: React.FC = () => {
-  const [activeBenchmark, setActiveBenchmark] = useState<'kairo' | 'generic'>('kairo');
+  const [activeBenchmark, setActiveBenchmark] = useState<'nxt' | 'generic'>('nxt');
 
   const getIcon = (iconName: string) => {
     switch (iconName) {
@@ -58,7 +58,7 @@ export const WhyChooseUsSection: React.FC = () => {
           >
             Why Choose{' '}
             <span className="bg-gradient-to-r from-sky-400 via-indigo-300 to-violet-400 bg-clip-text text-transparent">
-              Kairo Technologies
+              Nxt Technologies
             </span>
           </motion.h2>
 
@@ -131,21 +131,21 @@ export const WhyChooseUsSection: React.FC = () => {
                 Live Speed & Quality Benchmark
               </span>
               <h4 className="text-lg sm:text-xl font-display font-bold text-white mt-1">
-                Kairo Custom Code vs. Generic Page Builders
+                Nxt Custom Code vs. Generic Page Builders
               </h4>
             </div>
 
             {/* Switcher */}
             <div className="flex items-center gap-1 bg-black/60 p-1 rounded-xl border border-white/10">
               <button
-                onClick={() => setActiveBenchmark('kairo')}
+                onClick={() => setActiveBenchmark('nxt')}
                 className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
-                  activeBenchmark === 'kairo'
+                  activeBenchmark === 'nxt'
                     ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow'
                     : 'text-zinc-400 hover:text-white'
                 }`}
               >
-                Kairo Technologies
+                Nxt Technologies
               </button>
               <button
                 onClick={() => setActiveBenchmark('generic')}
@@ -161,7 +161,7 @@ export const WhyChooseUsSection: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6">
-            {activeBenchmark === 'kairo' ? (
+            {activeBenchmark === 'nxt' ? (
               <>
                 <div className="p-4 rounded-xl bg-white/[0.02] border border-white/5 text-center">
                   <span className="text-xs text-zinc-400 block mb-1">Load Time (LCP)</span>

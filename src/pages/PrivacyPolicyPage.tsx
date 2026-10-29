@@ -6,7 +6,7 @@ export const PrivacyPolicyPage: React.FC = () => {
   return (
     <PolicyLayout
       title="Privacy Policy"
-      subtitle="How Kairo Technologies collects, uses, protects, and handles your personal and project information."
+      subtitle="How Nxt Technologies collects, uses, protects, and handles your personal and project information."
       lastUpdated="October 2026"
     >
       <section className="space-y-4">
@@ -14,7 +14,7 @@ export const PrivacyPolicyPage: React.FC = () => {
           1. Introduction
         </h2>
         <p>
-          At <strong>Kairo Technologies</strong>, accessible from our digital platform, the privacy of our visitors and clients is of utmost importance. This Privacy Policy outlines the types of information we collect, why we collect it, and how your data is handled in compliance with applicable Indian digital data regulations.
+          At <strong>Nxt Technologies</strong>, accessible from our digital platform, the privacy of our visitors and clients is of utmost importance. This Privacy Policy outlines the types of information we collect, why we collect it, and how your data is handled in compliance with applicable Indian digital data regulations.
         </p>
       </section>
 
@@ -55,7 +55,7 @@ export const PrivacyPolicyPage: React.FC = () => {
           4. Payment Processing Information
         </h2>
         <p>
-          When you make a payment for standard packages or an agreed custom project, transactions are processed directly through authorized, PCI-DSS compliant third-party payment gateways (such as Razorpay, UPI, or direct NEFT/IMPS bank transfer). Kairo Technologies does not collect, process, or store sensitive credit card numbers, debit card PINs, or net banking passwords on our servers.
+          When you make a payment for standard packages or an agreed custom project, transactions are processed directly through authorized, PCI-DSS compliant third-party payment gateways (such as Razorpay, UPI, or direct NEFT/IMPS bank transfer). Nxt Technologies does not collect, process, or store sensitive credit card numbers, debit card PINs, or net banking passwords on our servers.
         </p>
       </section>
 

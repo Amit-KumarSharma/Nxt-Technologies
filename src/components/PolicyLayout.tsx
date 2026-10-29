@@ -56,7 +56,7 @@ export const PolicyLayout: React.FC<PolicyLayoutProps> = ({
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold mb-4"
           >
             <Shield className="w-3.5 h-3.5 text-indigo-400" />
-            <span>Kairo Technologies Legal Documentation</span>
+            <span>Nxt Technologies Legal Documentation</span>
           </motion.div>
 
           <motion.h1

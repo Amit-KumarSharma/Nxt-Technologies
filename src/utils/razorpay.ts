@@ -66,7 +66,7 @@ export const getRazorpayKeyId = (): string => {
     return envKey.trim();
   }
   if (typeof window !== 'undefined') {
-    const localKey = localStorage.getItem('kairo_razorpay_key');
+    const localKey = localStorage.getItem('nxt_razorpay_key') || localStorage.getItem('kairo_razorpay_key');
     if (localKey && localKey.trim() !== '') {
       return localKey.trim();
     }
@@ -83,8 +83,10 @@ export const getRazorpayKeyId = (): string => {
 export const saveRazorpayKeyId = (key: string): void => {
   if (typeof window !== 'undefined') {
     if (key.trim()) {
-      localStorage.setItem('kairo_razorpay_key', key.trim());
+      localStorage.setItem('nxt_razorpay_key', key.trim());
+      localStorage.removeItem('kairo_razorpay_key');
     } else {
+      localStorage.removeItem('nxt_razorpay_key');
       localStorage.removeItem('kairo_razorpay_key');
     }
   }

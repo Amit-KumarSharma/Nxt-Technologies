@@ -70,7 +70,7 @@ export const ContactPage: React.FC = () => {
       }
 
       if (formData.sendViaWhatsApp) {
-        const text = `Hello Kairo Technologies!%0A%0A*New Website Inquiry:*%0A- *Name:* ${encodeURIComponent(formData.name)}%0A- *Email:* ${encodeURIComponent(formData.email)}%0A- *Phone:* ${encodeURIComponent(formData.phone || 'Not provided')}%0A- *Business Type:* ${encodeURIComponent(formData.businessType)}%0A- *Service Required:* ${encodeURIComponent(formData.serviceRequired)}%0A- *Message:* ${encodeURIComponent(formData.message)}`;
+        const text = `Hello Nxt Technologies!%0A%0A*New Website Inquiry:*%0A- *Name:* ${encodeURIComponent(formData.name)}%0A- *Email:* ${encodeURIComponent(formData.email)}%0A- *Phone:* ${encodeURIComponent(formData.phone || 'Not provided')}%0A- *Business Type:* ${encodeURIComponent(formData.businessType)}%0A- *Service Required:* ${encodeURIComponent(formData.serviceRequired)}%0A- *Message:* ${encodeURIComponent(formData.message)}`;
         const waUrl = `https://wa.me/${AGENCY_CONFIG.whatsappNumber}?text=${text}`;
         window.open(waUrl, '_blank', 'noopener,noreferrer');
       }
@@ -94,7 +94,7 @@ export const ContactPage: React.FC = () => {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold mb-4"
           >
             <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
-            <span>Connect Directly with Kairo Technologies</span>
+            <span>Connect Directly with Nxt Technologies</span>
           </motion.div>
 
           <motion.h1

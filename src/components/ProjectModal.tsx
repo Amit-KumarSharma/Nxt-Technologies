@@ -99,7 +99,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
       }
 
       if (formData.openWhatsapp) {
-        const msg = `Hello Kairo Technologies!%0A%0A*Project Inquiry Scope:*%0A- *Client:* ${encodeURIComponent(formData.name)}%0A- *Email:* ${encodeURIComponent(formData.email)}%0A- *Phone:* ${encodeURIComponent(formData.phone || 'Not provided')}%0A- *Company:* ${encodeURIComponent(formData.company || 'Not specified')}%0A- *Selected Package / Service:* ${encodeURIComponent(formData.service)}%0A- *Target Budget:* ${encodeURIComponent(formData.budget)}%0A- *Timeline:* ${encodeURIComponent(formData.timeline)}%0A- *Brief:* ${encodeURIComponent(formData.notes || 'Looking for a formal proposal')}`;
+        const msg = `Hello Nxt Technologies!%0A%0A*Project Inquiry Scope:*%0A- *Client:* ${encodeURIComponent(formData.name)}%0A- *Email:* ${encodeURIComponent(formData.email)}%0A- *Phone:* ${encodeURIComponent(formData.phone || 'Not provided')}%0A- *Company:* ${encodeURIComponent(formData.company || 'Not specified')}%0A- *Selected Package / Service:* ${encodeURIComponent(formData.service)}%0A- *Target Budget:* ${encodeURIComponent(formData.budget)}%0A- *Timeline:* ${encodeURIComponent(formData.timeline)}%0A- *Brief:* ${encodeURIComponent(formData.notes || 'Looking for a formal proposal')}`;
         const waUrl = `https://wa.me/${AGENCY_CONFIG.whatsappNumber}?text=${msg}`;
         window.open(waUrl, '_blank', 'noopener,noreferrer');
       }
